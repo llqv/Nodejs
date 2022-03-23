@@ -12,14 +12,13 @@ export const create = async (req, res) => {
     }
 }
 export const read = async (req, res) => {
-    const condition = {_id: req.params.id};
     try {
-        const category = await Category.findOne({_id: req.params.id}).exec();
-        const products = await Product.find({category}).select('-category').exec();
+        const category = await Category.findOne({ _id: req.params.id }).exec();
+        const products = await Product.find({ category }).select('-category').exec();
         res.json({
             category, products
         });
     } catch (error) {
-        
+
     }
 }

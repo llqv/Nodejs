@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/datlt2306/web503.git"
+    "url": "git+https://github.com/llqv/Nodejs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/datlt2306/web503/issues"
+    "url": "https://github.com/llqv/Nodejs/issues"
   },
-  "homepage": "https://github.com/datlt2306/web503#readme",
+  "homepage": "https://github.com/llqv/Nodejs#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.3",
